@@ -1,0 +1,22 @@
+.item{
+    width: 250px;
+    cursor: pointer;
+}
+.para{
+    color: #555;
+    font-weight: 600;
+}
+.item-prices{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.item-price-new{
+    font-weight: 700;
+    color: black;
+}
+.item-price-old{
+    font-weight: 700;
+    color: #555;
+    text-decoration: line-through;
+}
