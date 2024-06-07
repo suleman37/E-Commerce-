@@ -11,7 +11,6 @@ const item = (props) => {
         <Row>
           <Col>
             <div className="item">
-              {/* <Link to="../../Pages/Product"><img src={props.image} alt="" width={"250px"} /></Link> */}
               <Link to="/Pages/Product"><img src={props.image} alt="" width={"250px"} /></Link>
               <p className="para">{props.name}</p>
               <div className="item-prices">
